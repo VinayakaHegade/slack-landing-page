@@ -3,6 +3,9 @@
 :root {
   --font-avant-garde: var(--font-avant-garde);
   --font-sans-regular: var(--font-sans-regular);
+  --slack-purple: #611f69;
+  --slack-blue: #1264a3;
+  --slack-yellow: #ecb22e;
 }
 
 @layer utilities {
@@ -19,10 +22,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-/* 2. Remove default margin */
-* {
-  margin: 0;
-}
+
 body {
   font-family: var(--font-sans-regular);
   /* 3. Add accessible line-height */
@@ -56,4 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+@theme {
+   --breakpoint-2xl: 72.5rem;
 }
