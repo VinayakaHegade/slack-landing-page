@@ -36,14 +36,12 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="relative max-w-[600px] h-[345px]">
           <Image
             src="/images/hero.jpg"
             alt="Slack interface"
-            fill
-            className="object-contain"
+            width={600}
+            height={345}
           />
-        </div>
       </div>
     </section>
   );
