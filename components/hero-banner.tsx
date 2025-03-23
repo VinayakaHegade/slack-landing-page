@@ -12,19 +12,19 @@ const HeroBanner = () => {
 
   return (
     <div
-      className={`bg-[#1264A3] px-10 py-7 mt-20 text-white lg:rounded-[100vh] max-w-[1300px] mx-auto ${
+      className={`bg-[#1264A3] px-4 py-3 md:px-10 md:py-7 mt-20 text-white lg:rounded-[100vh] max-w-[1300px] mx-auto ${
         isBannerVisible ? "" : "hidden"
       }`}
     >
       <div className="flex items-center justify-between">
         <div className="flex-1 text-center md:text-left">
           <p className="text-sm md:text-lg">
-            Turn agents into teammates with Agentforce in Slack.
+            Slack is your digital HQ. Meet the new features keeping teams connected in a work-from-anywhere world.
             <Link
               href="https://slack.com/intl/en-in/ai-agents"
               className="ml-2 inline-flex items-center font-bold text-base hover:underline"
             >
-              Learn more
+              Let's go
               <Icons.ArrowRight className="h-5 w-5 ml-1" />
             </Link>
           </p>
