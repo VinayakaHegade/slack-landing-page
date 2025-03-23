@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+:root {
+  --font-avant-garde: var(--font-avant-garde);
+  --font-sans-regular: var(--font-sans-regular);
+}
+
+@layer utilities {
+  .font-avant {
+    font-family: var(--font-avant-garde);
+  }
+
+  .font-sans-regular {
+    font-family: var(--font-sans-regular);
+  }
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -9,6 +24,7 @@
   margin: 0;
 }
 body {
+  font-family: var(--font-sans-regular);
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
@@ -32,6 +48,7 @@ p {
   text-wrap: pretty;
 }
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-avant-garde);
   text-wrap: balance;
 }
 /*
