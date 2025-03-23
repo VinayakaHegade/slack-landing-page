@@ -1,6 +1,6 @@
 # Slack Landing Page
 
-A responsive recreation of Slack's landing page built with Next.js 14, TypeScript, and Tailwind CSS.
+A responsive recreation of Slack's landing page built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Live Demo
 
@@ -10,7 +10,14 @@ Check out the live demo: [Slack Landing Page](https://slack-landing-page.vercel.
 
 ### Desktop View
 
+![Desktop Full View](public/screenshots/desktop-full.png)
+
+
 ![Desktop View](public/screenshots/desktop.png)
+
+### Sticky Header
+
+![Sticky Header](public/screenshots/sticky-header.png)
 
 ### Mobile View
 
@@ -18,11 +25,17 @@ Check out the live demo: [Slack Landing Page](https://slack-landing-page.vercel.
 
 ### Mobile Menu
 
+![Mobile View](public/screenshots/mobile.png)
+
+![Mobile With Banner](public/screenshots/mobile-with-banner.png)
+
+![Mobile Sticky](public/screenshots/mobile-sticky.png)
+
 ![Mobile Menu](public/screenshots/mobile-menu.png)
 
 ## Tech Stack
 
-- Next.js 14
+- Next.js
 - TypeScript
 - Tailwind CSS
 - React
@@ -32,7 +45,7 @@ Check out the live demo: [Slack Landing Page](https://slack-landing-page.vercel.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/slack-landing-page.git
+git clone https://github.com/VinayakaHegade/slack-landing-page.git
 cd slack-landing-page
 ```
 
@@ -52,19 +65,21 @@ npm run dev
 
 ## Project Structure
 
+```plaintext
 slack-landing-page/
 ├── app/
-│ ├── layout.tsx # Root layout with fonts and metadata
-│ ├── page.tsx # Home page component
-│ └── globals.css # Global styles and Tailwind imports
+│   ├── layout.tsx        # Root layout with fonts and metadata
+│   ├── page.tsx          # Home page component
+│   └── globals.css       # Global styles and Tailwind imports
 ├── components/
-│ ├── navbar.tsx # Responsive navigation
-│ ├── hero-section.tsx
-│ ├── client-logos.tsx
-│ ├── hero-banner.tsx
-│ ├── cookie-banner.tsx
-│ └── Icons.tsx
+│   ├── navbar.tsx        # Responsive navigation
+│   ├── hero-section.tsx
+│   ├── client-logos.tsx
+│   ├── hero-banner.tsx
+│   ├── cookie-banner.tsx
+│   └── Icons.tsx
 └── public/
-├── logo/ # Company logos
-├── images/ # Site images
-└── screenshots/ # Project screenshots
+    ├── logo/             # Company logos
+    ├── images/           # Site images
+    └── screenshots/      # Project screenshots
+```

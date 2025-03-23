@@ -12,7 +12,7 @@ const HeroBanner = () => {
 
   return (
     <div
-      className={`bg-[#1264A3] px-4 py-3 md:px-10 md:py-7 mt-20 text-white lg:rounded-[100vh] max-w-[1300px] mx-auto ${
+      className={`bg-[#1264A3] px-4 py-3 md:px-10 md:py-7 text-white lg:rounded-[100vh] max-w-[1300px] mx-auto ${
         isBannerVisible ? "" : "hidden"
       }`}
     >
