@@ -65,12 +65,12 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <button className="hidden text-neutral-900 hover:text-black min-[420px]:block">
+            <button className="hidden text-neutral-900 hover:text-black min-[420px]:block cursor-pointer">
               <Icons.Search className="h-5 w-5" />
             </button>
             <Link
               href="/signin"
-              className="hidden text-neutral-900 hover:text-black sm:block"
+              className="hidden text-neutral-900 hover:text-black sm:block cursor-pointer font-bold"
             >
               Sign in
             </Link>
