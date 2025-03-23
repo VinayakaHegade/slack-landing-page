@@ -73,4 +73,25 @@ export const Icons = {
       />
     </svg>
   ),
+  Play: (props: IconProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      width="160"
+      height="100"
+      viewBox="0 0 161 100"
+      aria-hidden="true"
+      {...props}
+    >
+      <g opacity=".6">
+        <rect fill="#1d1c1d" height="100" rx="6" width="160.748"></rect>
+        <path
+          clipRule="evenodd"
+          d="m101.172 52.3278-33.4889 16.6667v-33.3334z"
+          fill="#fff"
+          fillRule="evenodd"
+        ></path>
+      </g>
+    </svg>
+  ),
 };
