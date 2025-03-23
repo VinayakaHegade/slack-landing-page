@@ -26,7 +26,7 @@ const VideoSection = () => {
             Now is your moment to build a better tomorrow
           </h2>
           <p className="text-lg text-black">
-            We've seen what the future can be. Now it's time to decide what it
+            We&apos;ve seen what the future can be. Now it&apos;s time to decide what it
             will be.
           </p>
             <Link

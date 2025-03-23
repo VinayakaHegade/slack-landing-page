@@ -24,7 +24,7 @@ const HeroBanner = () => {
               href="https://slack.com/intl/en-in/ai-agents"
               className="ml-2 inline-flex items-center font-bold text-base hover:underline"
             >
-              Let's go
+              Let&apos;s go
               <Icons.ArrowRight className="h-5 w-5 ml-1" />
             </Link>
           </p>
