@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg">
       <body
-        className={`${avantGarde.variable} ${sansRegular.variable} antialiased min-h-dvh max-w-[81.25rem] mx-auto`}
+        className={`${avantGarde.variable} ${sansRegular.variable} antialiased min-h-dvh max-w-[81.25rem] mx-auto bg-[#f6efe8]`}
       >
         {children}
       </body>

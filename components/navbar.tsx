@@ -72,13 +72,13 @@ const Navbar = () => {
           </Link>
           <Link
             href="/sales"
-            className="hidden rounded-md border border-purple-800 px-4 py-2 text-sm font-medium text-purple-800 hover:bg-purple-50 2xl:block"
+            className="hidden rounded-md border border-slack-purple px-4 py-2 text-sm font-medium text-slack-purple hover:bg-purple-50 2xl:block"
           >
             TALK TO SALES
           </Link>
           <Link
             href="/signup"
-            className="rounded-md bg-purple-800 px-4 py-2 text-sm font-medium text-white hover:bg-purple-900"
+            className="rounded-md bg-slack-purple px-4 py-2 text-sm font-medium text-white hover:bg-purple-900"
           >
             GET STARTED
           </Link>

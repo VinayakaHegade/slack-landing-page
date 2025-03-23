@@ -3,7 +3,7 @@
 :root {
   --font-avant-garde: var(--font-avant-garde);
   --font-sans-regular: var(--font-sans-regular);
-  --slack-purple: #611f69;
+  --slack-purple: #611e64;
   --slack-blue: #1264a3;
   --slack-yellow: #ecb22e;
 }
@@ -60,4 +60,5 @@ h1, h2, h3, h4, h5, h6 {
 
 @theme {
    --breakpoint-2xl: 72.5rem;
+   --color-slack-purple: var(--slack-purple);
 }
