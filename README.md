@@ -4,7 +4,7 @@ A responsive recreation of Slack's landing page built with Next.js, TypeScript, 
 
 ## Live Demo
 
-Check out the live demo: [Slack Landing Page](https://slack-landing-page.vercel.app)
+Check out the live demo: [Slack Landing Page](https://slack-lp.vercel.app)
 
 ## Screenshots
 
