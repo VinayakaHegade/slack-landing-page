@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${avantGarde.variable} ${sansRegular.variable} antialiased min-h-dvh max-w-7xl mx-auto`}
+        className={`${avantGarde.variable} ${sansRegular.variable} antialiased min-h-dvh max-w-[81.25rem] mx-auto`}
       >
         {children}
       </body>
